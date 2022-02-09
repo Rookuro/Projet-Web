@@ -1,0 +1,81 @@
+* {
+    font-family: "Nunito ExtraLight";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: url("../img/one\ piece.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: "Nunito ExtraLight";
+    src: url("../Police/Nunito/Nunito-VariableFont_wght.ttf");
+}
+
+.error-block-all {
+    display: flex;
+    justify-content: center;
+}
+
+.error-block-background {
+    display: flex;
+    flex-direction: column;
+    background-color: #403d3d;
+    width: 1450px;
+    height: 778px;
+    margin-top: 80px;
+}
+
+.error-block-inbackground {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.error-block-block .title2 {
+    color: #FF4646;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.error-block-all .title1 {
+    text-align: center;
+    color: #FF4646;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.error-block-block a {
+    text-decoration: none;
+    color: black;
+    background-color: #707070;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+}
+
+.error-block-block {
+    margin-top: 5%;
+}
+
+@media all and (max-width: 667px) {
+    .error-block-inbackground {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .error-block-background {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #403d3d;
+        width: 1450px;
+        height: 799px;
+        margin-top: 80px;
+    }
+}
+

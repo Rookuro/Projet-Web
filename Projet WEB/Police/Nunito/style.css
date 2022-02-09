@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: url("img/one\ piece.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+/* barre menu */
+header {
+    text-align: center;
+}
+header .nav1-bar {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: #ff4646;
+    border-radius: 25px;
+}
+
+header .nav1-bar ul {
+    display: flex;
+    justify-content: center;
+}
+
+header .nav1-bar .nav1-bar-logo img {
+    width: 128px;
+    height: auto;
+}
+
+header .nav1-bar-button li {
+    list-style: none;
+    display: flex;
+    padding-left: 40px;
+}
+
+header .nav1-bar-button li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+header .nav1-bar-search {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 12px;
+}
+
+/* header .nav1-bar-button li:last-child {
+    padding-right: 10px;
+    border-right: 1px solid grey;
+    height: 50px;
+} */
+
+header .nav1-bar-search input {
+    border-radius: 10px;
+    border: none;
+}
+
+header .nav1-bar-search i {
+    padding-right: 10px;
+    margin-top: 5px;
+}
+
+/* barre menu */
+
+.content1-block-all {
+    text-align: center;
+    background-color: #403d3d;
+    width: 1081px;
+    height: 500px;
+    margin-top: 80px;
+    margin-left: 200px;
+}
+
+.content1-block-all {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content1-block-all .content1-block-info1 .content1-block-carrousel p {
+    background-color: white;
+    width: 300px;
+    height: 150px;
+}
+
+.content1-block-all .title3 {
+    padding-bottom: 20px;
+    border-bottom: 1px #000000 solid;
+}
+
+.content1-block-all .content1-block-info2 .text1 {
+    margin-top: 40px;
+    border-bottom: 1px ;
+}
+
+.content1-block-all .content1-block-info2 {
+    padding-top: 10px;
+    background-color: #ff4646;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    position: relative;
+    left: 90px;
+    top: 50px;
+}
+
+/* carousel */
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
+

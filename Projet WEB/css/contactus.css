@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: url("../img/one\ piece.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Nunito ExtraLight;
+    /* font-family: Atomic Age; */
+    /* font-family: Akronim; */
+}
+
+/* Ajouter une police */
+@font-face {
+    font-family: "Nunito ExtraLight";
+    src: url("../Police/Nunito/Nunito-VariableFont_wght.ttf");
+}
+/* Ajouter une police */
+
+/* barre menu */
+header {
+    text-align: center;
+}
+header .nav1-bar {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-left: 38px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    background-color: #ff4646;
+    border-radius: 25px;
+}
+
+header .nav1-bar ul {
+    display: flex;
+    justify-content: center;
+}
+
+header .nav1-bar .nav1-bar-logo img {
+    width: 128px;
+    height: auto;
+}
+
+header .nav1-bar-button li {
+    list-style: none;
+    display: flex;
+    padding-left: 40px;
+}
+
+header .nav1-bar-button li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+header .nav1-bar-contact {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 17px;
+}
+
+/* header .nav1-bar-button li:last-child {
+    padding-right: 10px;
+    border-right: 1px solid grey;
+    height: 50px;
+} */
+
+header .nav1-bar-search input {
+    border-radius: 10px;
+    border: none;
+}
+
+header .nav1-bar-search i {
+    padding-right: 10px;
+    margin-top: 5px;
+}
+
+header .nav1-bar-contact a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    border-left: 1px solid #707070;
+    padding-left: 25px;
+}
+
+.toggle{
+    display: none;
+}
+
+/* barre menu */
+
+.contact-block-all {
+    text-align: center;
+    background-color: #403d3d;
+    width: 950px;
+    height: 500px;
+    margin-top: 80px;
+    margin-left: 20%;
+}
+
+.contact-block-part1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.contact-block-part1 input{
+    width: 250px;
+    height: 25px;
+}
+
+.contact-block-part2 input{
+    height: 25px;
+}
+
+.contact-block-part1 .contact-block-name {
+    padding-left: 15px;
+}
+
+.contact-block-part2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 210px;
+    margin-right: 210px;
+    margin-top: 10px;
+}
+
+.contact-block-part2 input:last-child{
+    margin-top: 10px;
+    font-family: "Nunito ExtraLight"; 
+}
+
+.contact-block-part3 input{
+    margin-top: 10px;
+    width: 523px;
+    height: 100px;
+    font-family: "Nunito ExtraLight"; 
+}
+
+.contact-block-part3 input{
+    font-family: "Nunito ExtraLight"; 
+}
+
+.contact-block-part4 input{
+    margin-top: 2%;
+    font-family: "Nunito ExtraLight"; 
+    padding: 1% 2% 1% 2%; 
+    border-radius: 5px;
+    background-color: #ff4646;
+}
+
+
+
+#title1 {
+    color: #FF4646;
+    border-bottom: 1px solid #707070;
+    position: relative;
+    top: 15px;
+    padding-bottom: 10px;
+    font-size: x-large;
+}
+
+@media screen and (max-width: 667px){
+
+    header {
+        background: transparent;
+    }
+
+    header .nav1-bar {
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+        padding-top: 20px;
+        padding-left: 38px;
+        padding-right: 50px;
+        padding-bottom: 20px;
+        background-color: #ff4646;
+        border-radius: 0px;
+        align-items: center;
+    }
+
+    i.fas.fermer{
+        display: none;
+    }
+
+    .open i.fas.fermer{
+        display: block;
+    }
+
+    i.fas.ouvrir{
+        display: block;
+    }
+
+    .open i.fas.ouvrir{
+
+        display: none;
+    }
+
+    .toggle {
+        display: block;
+        font-size: 2rem;
+        cursor: pointer;
+        position: relative;
+        z-index: 20;
+        left: 207px;
+    }
+
+    .nav1-bar-logo {
+        position: relative;
+        z-index: 20;
+        right: 227px;
+    }
+
+    header .nav1-bar-button li {
+        list-style: none;
+        display: flex;
+        /* padding-left: 40px; */
+        justify-content: center;
+        margin-top: 0px;
+        margin-right: 73px;
+    }    
+
+    .nav1-bar-contact {
+        display: none;
+    }
+
+    .menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 127vh;
+        background: #FF4646;
+        flex-direction: column;
+        padding: 2rem;
+        justify-content: space-around;
+        transform: translateX(-100%);
+        transition: transform 1s;
+    }
+
+    .menu li a {
+        font-size: 2rem;
+    }
+
+    .btn {
+        font-size: 2rem;
+    }
+
+    .open .menu {
+        transform: translateX(0);
+    }
+}

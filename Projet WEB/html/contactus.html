@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/contactus.css">
+    <script src="https://kit.fontawesome.com/95e7288016.js" crossorigin="anonymous"></script>
+    <title>Kitsune</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav1-bar">
+                <div class="nav1-bar-logo">
+                    <img src="../img/Logo2.png">
+                </div>
+                <div class="toggle">
+                    <i class="fas fa-bars ouvrir"></i>
+                    <i class="fas fa-times fermer"></i>
+                </div>
+                <div class="nav1-bar-button">
+                    <ul class="menu">
+                        <li><a href="../index.html">Accueil</a></li>
+                        <li><a href="../Animés/Pages_Principales/Anime.html">Animés</a></li>
+                        <li><a href="../Films Animés/Pages_Principales/Lien.html">Films Animés</a></li>
+                        <li><a href="../Wallpaper/Pages/Lien.html">Wallpaper</a></li>
+                        <li><a href="../Liens Utiles/Pages/Lien.html">Liens Utiles</a></li>
+                    </ul>
+                </div>
+                <div class="nav1-bar-contact">
+                    <a href="#">Nous contacter</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="contact-block-all">
+        <h id="title1">Nous contacter</h>
+        <form>
+            <div class="contact-block-part1">
+                <div class="contact-block-firstname">
+                    <label for="firstname"></label>
+                    <input type="firstname" name="firstname" id="firstname" placeholder="*Prénom" required>
+                </div>
+                <div class="contact-block-name">
+                    <label for="name"></label>
+                    <input type="name" name="name" id="name" placeholder="*Nom" required>
+                </div>
+            </div>
+            <div class="contact-block-part2">
+                <label for="topic"></label>
+                <input type="topic" name="topic" id="topic" placeholder="*Sujet" required>
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="*E-mail" required>
+            </div>
+            <div class="contact-block-part3">
+                <label for="message"></label>
+                <input type="text" name="message" id="message" placeholder="*Tapez votre message (1000 caractères restants)" required>
+            </div>
+            <div class="contact-block-part4">
+                <input type="submit" value="Envoyer">
+            </div>
+        </form>
+    </div>
+    <script src="../java/app.js"></script>
+</body> 
+</html>
